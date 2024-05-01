@@ -1,0 +1,17 @@
+#User function Template for python3
+
+# Function to check value and 
+# return accordingly
+def check_status(a, b, flag):
+    ##Your code here
+    ##Either True or False is returned
+   if((a >= 0 and b < 0) and flag is False):
+     return True
+    
+   if((a < 0 and b >= 0) and flag is False):
+     return True
+    
+   if(a < 0  and b < 0 and flag is True):
+     return True
+    
+   return False
