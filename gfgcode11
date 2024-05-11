@@ -1,0 +1,5 @@
+#User function Template for python3
+# Function to Welcome the person
+def welcomeAboard(name):
+    a = "Welcome" +" "+name  # Your code here
+    print(a) 
