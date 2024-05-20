@@ -1,0 +1,22 @@
+def insert(S, element):
+    # Your code here
+    S.add(element)
+    
+    
+    
+
+# Function to remove element from set
+# No return and nothing to print
+def remove_from_set(S, element):
+    # Your code here
+    
+    
+    S.remove(element)
+    
+    
+# Function to find sum of elements in set
+# return value should be there as sum
+def sum_set(S):
+    # Your code here
+    ans=sum(S)
+    return ans
